@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: ec-payroll-audit-6d7a7
+  version: 1.0.0
+  description: AI agent that generates a consolidated EC Payroll infotypes changes audit report for the current month, categorized by P2P EC-to-ECP, Inbound, and Manual updates, with before/after values for the top 100 highest-salaried employees.
+
+assets:
+  - ref: ./assets/ec-payroll-audit-agent/asset.yaml
